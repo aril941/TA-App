@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TA1 App</string>
+    <string name="scan">SCAN</string>
+    <string name="kamus">Book</string>
+    <string name="info">Information</string>
+    <string name="settings">Settings</string>
+    <string name="tentang_aplikasi">About Application</string>
+    <string name="versi_aplikasi">Application Version</string>
+    <string name="numVersi">1.0</string>
+    <string name="versi_db">Database Version</string>
+    <string name="pusat_bantuan">Help Center</string>
+    <string name="syarat_ketentuan">Terms and Conditions</string>
+    <string name="kebijakan_privasi">Kebijakan Privasi</string>
+    <string name="temukan_kami">Privacy Policy</string>
+    <string name="bahasa">Language</string>
+    <string name="tema">Theme</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--penyakit/hama-->
+    <string name="bercak_coklat">Brown Spots</string>
+    <string name="latin_bercak_coklat">Cercospora</string>
+    <string name="desc_bercak_coklat">Brown leaf spot disease on rice (Oryza sativa l) is caused by the fungus Helminthosporium oryzae or Drechslera oryzae (Cochliobolus miyabeanus). This disease is characterized by various symptoms. However, the presence of round or oval brown spots with a yellow halo during the tillering stage is the most obvious sign of infection. As the spots enlarge, a gray center appears in the center and a reddish-brown border is visible. Bar discoloration is another characteristic symptom. On susceptible varieties, the lesions can be 5–14 mm long and can cause leaf wilting. In resistant varieties, the lesions are brownish yellow and the size of a pinhead. Infection of the florets causes incomplete or disturbed grain filling and reduces grain quality.</string>
+
+    <string name="busuk_leher">Neck Rot</string>
+    <string name="latin_busuk_leher">Fungus Pyricularia Grisea</string>
+    <string name="desc_busuk_leher">Neck rot disease (Blas) is a disease that attacks rice plants and generally this disease can attack at any time, then the rice becomes puso. Symptoms may appear on leaves, stems, panicles and grain, but generally on leaves and neck panicles. The fungus P. grisea can infect all growth phases of rice plants from the nursery to the time of harvest. During the seedling and vegetative growth phases of rice plants, P. grisea infects the leaves and causes disease symptoms in the form of rhombus-shaped brown spots called leaf blast. temperature, fertilizer and varietal resistance. These factors are components of a disease epidemic that can be managed for the purpose of blast disease control. Efforts to control blast disease through integrated management of epidemic components have a high chance of success.</string>
+
+    <string name="hawar_daun">Leaf Blight</string>
+    <string name="latin_hawar_daun">Xanthomonas campestris pv bacteria. Oryzae</string>
+    <string name="desc_hawar_daun">This disease is caused by the bacterium Xanthomonas campestris pv. Oryzae and can reduce yields up to 30%. This disease often occurs during wet rainy or dry seasons, especially in paddy fields which are always flooded and fertilized with high N (≥ 250 kg Urea/ha). If the bacterial attack occurs in the generative phase of the rice plant, it is then called blight. Xanthomonas oryzae bacteria infect rice plants through wounds on the leaves and leaf stomata and then enter the chlorophyll and damage the leaves. Symptoms of a crackle attack on the leaf blade are leaf damage, usually starting from the edge a few cm from the tip, in the form of lines, blisters and then extends with wavy edges.
+         HDB or crackle disease needs to be controlled quickly and precisely because the bacteria are classified as fast spreading and can infect rice in farmers fields as a whole. If the whole rice is infected with bacteria, the rice production will decrease. These controls include planting resistant varieties, synthetic fungicides, land sanitation, and rotating crops that are not pathogen hosts.
+         If the plants are already infected with bacteria, the steps to control are adding dolomite to the land, reducing stagnant water in rice plants and spraying pesticides with the recommended dosage.</string>
+
+    <!--    tanaman-->
+    <string name="padi_pulen">Padi Pulen</string>
+    <string name="latin_padi_pulen">Oryza sativa L.</string>
+    <string name="desc_padi_pulen">Padi Pulen is rice which when the rice is cooked, it will produce the characteristics of fluffier rice. Some people prefer rice that is fluffier, aka a little sticky.</string>
+
+    <string name="padi_ketan">Padi Ketan</string>
+    <string name="latin_padi_ketan">Oryza sativa L. Var. Glutinosa</string>
+    <string name="desc_padi_ketan">Padi Ketan is stickier than rice, so it is not used as a staple food. Padi Ketan is usually used as an ingredient for making sticky tape, sticky rice porridge, and various regional specialties. Padi Ketan variants include red, white, and black sticky rice variants. Padi Ketan has amylose content below 1% in rice starch. The starch is dominated by amylopectin, so it is very sticky when cooked.
+         Padi Ketan contains 169 calories in 200 grams so that it fits the recommended calorie intake. Padi Ketan also has good benefits for the body when consumed regularly, namely, it can reduce heart risk, a source of energy, helps fight free radicals, balances metabolism in the body, keeps bones healthy, facilitates the digestive system, and also prevents anemia. Because Padi Ketan contains nutrients such as vitamin B-6 and also contains copper so it can help the brain stay healthy.</string>
+
+    <string name="padi_gogo">Padi Gogo</string>
+    <string name="latin_padi_gogo">Oryza sativa L. Var. Indica</string>
+    <string name="desc_padi_gogo">Padi Gogo is a type of rice that is not grown in rice fields as usual. This type of rice is grown in the garden or in the fields. The advantage of Padi Gogo is that it does not require special irrigation. Areas that often develop Padi Gogo are rainfed areas, for example in Lombok.
+         In Lombok itself there is a system called rancah Padi Gogo. He provides flooding at certain intervals, so that the yield of rice increases. On lands that develop Padi Gogo, intercropping farming systems are usually also applied. This means that farmers do not only plant rice, but also other production crops, such as corn or cassava.</string>
+
+    <string name="padi_wangi">Padi Wangi</string>
+    <string name="latin_padi_wangi">Oryza sativa L. Var. Japonica</string>
+    <string name="desc_padi_wangi">Padi Wangi (aromatic rice) was developed by people in several places in Asia, the famous ones being the \'Cianjur Pandanwangi\' race (now a superior cultivar) and \'rajalele\'. Both of these cultivars are long-lived varieties of javanica. Overseas people know long grain rice, short grain rice, risotto, milk rice generally use the genealogy method. One of the most important stages in rice breeding is the release of \'IR5\' and \'IR8\' cultivars, which is the first short-lived rice with high yield potential. This was the beginning of the green revolution in rice cultivation. The following rice cultivars generally have the \'blood\' of the two pioneer cultivars.</string>
+    <string name="webLink1"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5220]]></string>
+    <string name="webLink2"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5217]]></string>
+    <string name="webLink3"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5218]]></string>
+    <string name="webLink4"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5219]]></string>
+    <string name="detect_content">press to detect</string>
+</resources>

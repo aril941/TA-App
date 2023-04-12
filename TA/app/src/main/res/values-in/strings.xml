@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">TA1 App</string>
+    <string name="scan">SCAN</string>
+    <string name="kamus">Kamus</string>
+    <string name="info">Informasi</string>
+    <string name="settings">Pengaturan</string>
+    <string name="tentang_aplikasi">tentang aplikasi</string>
+    <string name="versi_aplikasi">Versi Aplikasi</string>
+    <string name="numVersi">1.0</string>
+    <string name="versi_db">Versi Database</string>
+    <string name="pusat_bantuan">Pusat Bantuan</string>
+    <string name="syarat_ketentuan">Syarat dan Ketentuan</string>
+    <string name="kebijakan_privasi">Kebijakan Privasi</string>
+    <string name="temukan_kami">Temukan Kami di</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="tema">Tema</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--penyakit/hama-->
+    <string name="bercak_coklat">Bercak Coklat</string>
+    <string name="latin_bercak_coklat">Cercospora</string>
+    <string name="desc_bercak_coklat">Penyakit bercak daun coklat (brown leaf spot) pada tanaman padi (oryza sativa l) ini disebabkan oleh cendawan Helminthosporium oryzae atau Drechslera oryzae (Cochliobolus miyabeanus). Penyakit ini ditandai oleh berbagai gejala. Namun, adanya bercak-bercak coklat bundar atau oval dengan lingkaran kuning selama tahap anakan adalah tanda-tanda infeksi yang paling nyata. Ketika bercak-bercak tersebut membesar, pusat abu-abu muncul di tengah-tengah dan tepian coklat kemerahan terlihat. Perubahan warna batang adalah gejala karakteristik lainnya. Pada varietas yang rentan, luka dapat mencapai panjang 5−14 mm dan dapat menyebabkan daun layu. Pada varietas yang resisten, lukanya berwarna kuning kecoklatan dan seukuran kepala peniti.Infeksi pada kuntum menyebabkan pengisian bulir tidak sempurna atau terganggu dan menurunkan kualitas gabah.</string>
+
+    <string name="busuk_leher">Busuk Leher</string>
+    <string name="latin_busuk_leher">Jamur Pyricularia Grisea</string>
+    <string name="desc_busuk_leher">Penyakit busuk leher (Blas) merupakan salah satu penyakit yang menyerang tanaman padi dan umumnya penyakit ini dapat menyerang kapan saja, kemudian padi menjadi puso. Gejalanya dapat timbul pada daun, batang, malai dan gabah, tetapi umumnya pada daun dan leher malai. Jamur P. grisea dapat menginfeksi pada semua fase pertumbuhan tanaman padi mulai dari persemaian sampai menjelang panen. Pada fase bibit dan pertumbuhan vegetatif tanaman padi,  P. grisea menginfeksi bagian daun dan menimbulkan gejala penyakit yang berupa bercak coklat berbentuk belah ketupat yang disebut blas daun.\n\n Faktor-faktor yang mempengaruhi perkembangan penyakit blas sperti tanah, pengairan, kelembaban, suhu, pupuk dan ketahanan varietas. Faktor-faktor tersebut merupakan komponen epidemi penyakit yang dapat dikelola untuk tujuan  pengendalian penyakit blas. Upaya untuk mengendalikan penyakit blas  melalui pengelolaan komponen epidemi secara terpadu mempunyai peluang keberhasilan tinggi.</string>
+
+    <string name="hawar_daun">Hawar Daun</string>
+    <string name="latin_hawar_daun">Bakteri Xanthomonas campestris pv. Oryzae</string>
+    <string name="desc_hawar_daun">Penyakit ini disebabkan oleh bakteri Xanthomonas campestris pv. Oryzae dan dapat menurunkan hasil sampai 30%. Penyakit ini banyak terjadi pada musim hujan atau kemarau yang basah terutama pada lahan sawah yang selalu tergenang, dan dipupuk N tinggi (≥ 250 kg Urea / ha). Apabila serangan bakteri terjadi pada fase generatif tanaman padi selanjutnya disebut hawar.Bakteri Xanthomonas oryzae menginfeksi tanaman padi melalui luka pada daun dan stotama daun dan selanjutnya masuk ke klorofil dan merusak daun. Gejala serangan kresek pada helaian daun yaitu kerusakan daun biasanya dimulai dari pinggir beberapa cm dari ujung, berupa garis, melepuh dan selanjutnya meluas dengan pinggiran yang bergelombang.
+        Penyakit HDB atau kresek perlu dikendalikan secara cepat dan tepat karena bakteri tergolong cepat menyebar dan dapat menginfeksi padi pada lahan petani secara keseluruhan. Jika keseluruhan padi terinfeksi bakteri, maka hasil produksi padi akan menurun. Pengendalian tersebut diantaranya menanam varietas tahan, fungisida sintetik, sanitasi lahan, dan pergiliran tanaman yang bukan inang patogen.
+        Jika tanaman sudah terinfeksi bakteri, langkah untuk mengendalikan yaitu penambahan dolomit pada lahan, air yang menggenang tanaman padi dikurangi dan dilakukan penyemprotan pestisida dengan dosis yang sesuai dengan anjuran.</string>
+
+    <!--    tanaman-->
+    <string name="padi_pulen">Padi Pulen</string>
+    <string name="latin_padi_pulen">Oryza sativa L.</string>
+    <string name="desc_padi_pulen">Padi pulen adalah padi yang apabila berasnya dimasak, akan menghasilkan karakteristik nasi yang pulen. Sebagian orang lebih menyukai nasi yang pulen alias sedikit lengket.</string>
+
+    <string name="padi_ketan">Padi Ketan</string>
+    <string name="latin_padi_ketan">Oryza sativa L. Var. Glutinosa</string>
+    <string name="desc_padi_ketan">Padi ketan lebih lengket dari padi nasi, sehingga tidak dijadikan makanan pokok. Padi ketan biasanya dijadikan bahan pembuatan tape ketan, bubur ketan, dan macam-macam makanan khas daerah. Varian padi ketan antara lain adalah varian padi ketan merah, putih, dan hitam. Padi ketan memiliki kadar amilosa di bawah 1% pada pati berasnya. Patinya didominasi oleh amilopektin, sehingga jika ditanak sangat lekat.
+        Beras ketan mengandung 169 kalori dalam 200 gr sehingga sesuai dengan asupan kalori yang direkomendasikan. Beras ketan juga memiliki manfaat yang baik untuk tubuh bila dikonsumsi secara rutin yaitu, dapat mengurangi resiko jantung, sumber energi, membantu melawan radikal bebas, menyeimbangkan metabolisme dalam tubuh, menjaga agar tulang tetap sehat, memperlancar sistem pencernaan, dan juga mencegah anemia. Karena di dalam beras ketan mengandung nutrisi seperti vitamin B-6 dan juga ada kandungan tembaga sehingga dapat membantu otak agar tetap sehat.</string>
+
+    <string name="padi_gogo">Padi Gogo</string>
+    <string name="latin_padi_gogo">Oryza sativa L. Var. Indica</string>
+    <string name="desc_padi_gogo">Padi gogo adalah jenis padi yang tidak ditanam di sawah seperti pada umumnya. Jenis padi ini ditanam di kebun atau di ladang. Kelebihan padi gogo adalah tidak memerlukan irigasi khusus. Daerah yang sering mengembangkan padi gogo adalah daerah tadah hujan, contohnya di Lombok.
+        Di Lombok sendiri ada sistem yang disebut padi gogo rancah. Ia memberikan penggenangan di selang waktu tertentu saja, sehingga hasil padinya meningkat. Pada lahan-lahan yang mengembangkan padi gogo, biasanya diterapkan juga sistem bercocok tanam tumpang sari. Artinya, petani tidak hanya menanam padi, namun juga disandingkan dengan tanaman produksi lainnya, seperti jagung atau ketela/singkong.</string>
+
+    <string name="padi_wangi">Padi Wangi</string>
+    <string name="latin_padi_wangi">Oryza sativa L. Var. Japonica</string>
+    <string name="desc_padi_wangi">Padi wangi atau harum (aromatic rice) dikembangkan orang di beberapa tempat di Asia, yang terkenal adalah ras \'Cianjur Pandanwangi\' (sekarang telah menjadi kultivar unggul) dan \'rajalele\'. Kedua kultivar ini adalah varietas javanica yang berumur panjang. Di luar negeri orang mengenal padi biji panjang (long grain), padi biji pendek (short grain), risotto, padi susu umumnya menggunakan metode silsilah.Salah satu tahap terpenting dalam pemuliaan padi adalah dirilisnya kultivar \'IR5\' dan \'IR8\', yang merupakan padi pertama yang berumur pendek namun berpotensi hasil tinggi. Ini adalah awal revolusi hijau dalam budidaya padi. Berbagai kultivar padi berikutnya umumnya memiliki \'darah\' kedua kultivar perintis tadi.</string>
+    <string name="webLink1"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5220]]></string>
+    <string name="webLink2"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5217]]></string>
+    <string name="webLink3"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5218]]></string>
+    <string name="webLink4"><![CDATA[https://www.pertanian.go.id/home/?show=news&act=view&id=5219]]></string>
+    <string name="detect">Scanning</string>
+    <string name="detect_content">press to detect</string>
+    <string name="akurasi">Akurasi</string>
+</resources>

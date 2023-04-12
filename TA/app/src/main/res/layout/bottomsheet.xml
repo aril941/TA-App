@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/standard_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green7"
+        android:background="@drawable/bg_dialog">
+
+    <!-- Bottom sheet contents. -->
+        <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+            android:id="@+id/drag_handle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bahasa_indonesia"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:paddingStart="15dp"
+            app:drawableStartCompat="@drawable/indonesia"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_semibold"
+            android:textSize="16sp"/>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            app:dividerInsetStart="20dp"
+            app:dividerInsetEnd="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bahasa_inggris"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
+            android:paddingStart="15dp"
+            android:layout_marginBottom="18dp"
+            app:drawableStartCompat="@drawable/united_kingdom"
+            android:textColor="@color/black"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_semibold"
+            android:textSize="16sp"/>
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:checkedButton="@+id/radio_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp">
+            <RadioButton
+                android:id="@+id/ind_button"
+                android:layout_width="match_parent"
+                style="@style/Widget.App.RadioButton"
+                android:layout_height="match_parent"/>
+            <RadioButton
+                android:id="@+id/en_button"
+                android:layout_width="match_parent"
+                style="@style/Widget.App.RadioButton"
+                android:layout_height="match_parent"/>
+        </RadioGroup>
+
+    </FrameLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

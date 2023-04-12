@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context=".ui.main.MainActivity">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/bg_view"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="103dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/sliderImage"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        app:iss_auto_cycle="true"
+        app:iss_period="4000"
+        app:iss_delay="0"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sliderImage">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvScan"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            android:layout_margin="25dp"
+            android:layout_width="0dp"
+            android:layout_height="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey2">
+
+                <ImageView
+                    android:id="@+id/ivScan"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rice" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivScan"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font_semibold"
+                    android:text="@string/scan"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBuku"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            android:layout_margin="25dp"
+            android:layout_width="0dp"
+            android:layout_height="30dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey2">
+
+                <ImageView
+                    android:id="@+id/ivBuku"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/book" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivBuku"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font_semibold"
+                    android:text="@string/kamus"
+                    android:textColor="@color/black"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvInfo"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            android:layout_margin="25dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="190dp"
+            android:layout_width="0dp"
+            android:layout_height="30dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey2">
+
+                <ImageView
+                    android:id="@+id/ivInfo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/information" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivInfo"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font_semibold"
+                    android:text="@string/info"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvSettings"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            android:layout_margin="25dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="190dp"
+            android:layout_width="0dp"
+            android:layout_height="30dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey2">
+
+                <ImageView
+                    android:id="@+id/ivSettings"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/settings" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivSettings"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font_semibold"
+                    android:text="@string/settings"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
